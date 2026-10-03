@@ -1,0 +1,11 @@
+# Python virtual environments and bytecode
+venv/
+__pycache__/
+*.py[cod]
+
+# Local datasets and generated preprocessing output
+data/datasets/
+data/processed/activity_sequences/
+
+# Malformed generated directory in backend
+backend/.._data_processed_activity_sequences_*/
